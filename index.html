@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--site stylesheet-->
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <title>My Personal Page</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 data-testid="slackUserName">Defacto</h1>
+        <img src="slack-profile-picture.png" alt="defacto" data-testid="slackDisplayImage">
+        <p>Day of the week: <span data-testid="currentDayOfTheWeek"></span></p>
+        <p>Current UTC Time(ms): <span data-testid="currentUTCTime"></span></p>
+        <p>Track: <span data-testid="myTrack">Frontend</span></p>
+        <a href="https://github.com/your-username/your-repo" data-testid="githubURL">GitHub Repository</a>
+    </div>
+    <!-- site js -->
+    <script src="site.js"></script>
+</body>
+
+</html>
